@@ -1,0 +1,69 @@
+# .project metadata for OVN-Kubernetes
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "ovn-kubernetes"
+name: "OVN-Kubernetes"
+description: "A robust Kubernetes networking platform"
+type: "project"
+project_lead: "dcbw" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#C08452HR8V6/details"
+    link: "https://cloud-native.slack.com/messages/C08452HR8V6/details/"
+    primary: true
+  - name: "#ovn-kubernetes"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-10-17T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/111" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/ovn-kubernetes/ovn-kubernetes"
+
+website: "https://ovn-kubernetes.io/"
+
+artwork: "https://landscape.cncf.io/logos/ovn-kubernetes.svg"
+
+adopters:
+  path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "ovn-kubernetes/ovn-kubernetes"
+
+
+security:
+  policy:
+    path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/ovn-kubernetes/ovn-kubernetes/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/ovn-kubernetes/ovn-kubernetes/blob/master/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Network"
+
+# CLOMonitor Score: 77/100
+# Documentation: 97 | License: 100 | Best Practices: 26 | Security: 68
