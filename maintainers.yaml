@@ -9,8 +9,12 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - dcbw
           - girishmg
           - jcaamano
+          - npinaeva
+          - kyrtapz
           - tssurya
           - trozet
+      - name: "emeritus-maintainers"
+        members:
+          - dcbw
