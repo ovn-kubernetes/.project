@@ -18,3 +18,50 @@ maintainers:
       - name: "emeritus-maintainers"
         members:
           - dcbw
+
+  - project_id: "libovsdb"
+    org: "ovn-kubernetes"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - amorenoz
+          - dave-tucker
+          - hzhou8
+          - jcaamano
+      - name: "emeritus-maintainers"
+        members:
+          - mavenugo
+          - shaleman
+
+  - project_id: "ovn-kubernetes-mcp"
+    org: "ovn-kubernetes"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - arkadeepsen
+          - pperiyasamy
+          - kyrtapz
+          - tssurya
+
+  - project_id: "dpu-simulator"
+    org: "ovn-kubernetes"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - wizhaoredhat
+          - tsorya
+          - aserdean
+          - trozet
+          - crnithya
+
+  - project_id: "kubernetes-traffic-flow-tests"
+    org: "ovn-kubernetes"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - wizhaoredhat
+          - Venkat-Kunaparaju
+      - name: "emeritus-maintainers"
+        members:
+          - SalDaniele
+          - thom311
